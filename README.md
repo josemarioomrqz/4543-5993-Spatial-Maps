@@ -6,4 +6,4 @@
 
 #### Image: 
 
-<img src = "IMG_6556.jpg " width = "200">
+<img src = "IMG_6556 2.jpg " width = "200">
