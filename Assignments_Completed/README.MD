@@ -1,6 +1,6 @@
 ## Assigments Completed
 
-## Notebooks
+## Python Notebooks
 
 |  #  | Notebook Link                                             | Assignment Description                     |
 | :-: | --------------------------------------------------------- | ------------------------------------------ |
