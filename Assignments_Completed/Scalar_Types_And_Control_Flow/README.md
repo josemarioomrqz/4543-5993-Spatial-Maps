@@ -1,4 +1,4 @@
-# Assignments Completed For Data Basics
+# Assignments Completed For Scalar Types and Control Flow
 
 ## Python Notebooks and Markdown
 
