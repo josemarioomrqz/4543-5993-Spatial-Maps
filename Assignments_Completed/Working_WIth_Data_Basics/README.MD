@@ -8,4 +8,6 @@
 | 2 | [02-Tuples](./02-Tuples.ipynb) | Python notebook: Tuples practice |
 | 3 | [03-Data Types and Arithmetic](./03-Data_Types_and_Arithmetic.ipynb) | Python notebook: Data types & arithmetic |
 | 4 | [03-Dictionaries](./03-Dictionaries.ipynb) | Python notebook: Dictionaries |
-| 5 | [02b mini quiz](./02b-mini_quiz.md) | Markdown File: Mini quiz |
+| 5 | [01-worksheet](./01-worksheet.md) | Markdown file: Data Basics worksheet |
+| 6 | 
+| 7 | [02b mini quiz](./02b-mini_quiz.md) | Markdown File: Mini quiz |
