@@ -1,12 +1,16 @@
 # Assignments Completed For Foundations
 
-## Python Notebooks and Markdown
+## Python Notebooks and Markdown 
 
 | # | Notebook | Assignment Description |
 | - | -------- | ---------------------- |
-| 1 | [01-For Loops](./01-For_Loops.ipynb) | Python notebook: For Loops |
-| 2 | [02-While Loops](./02-While_Loops.ipynb) | Python notebook: While Loops |
-| 3 | [03-File Loops and With](./03-File_Loops_and_With.ipynb) | Python notebook: File Loops and With |
-| 4 | [mini-quiz](./mini_quiz.ipynb) | Python notebook: Mini Quiz: Loops and Iteration |
-| 5 | [mini-quiz](./mini_quiz.md) | Markdown file: Python Mini quiz Worksheet |
-| 6 | [worksheet](./worksheet.md) | Markdown file: Python Worksheet |
+| 1 | [01-Magic Commands](./01-magic_commands.ipynb) | Python notebook: Magic Commands for Python |
+| 2 | [02-Markdown and Formatting](./02-Markdown_and_Formatting.ipynb) | Python notebook: Working with Markdown and Formatting |
+| 3 | [03-Work with Files](./03-Work_With_Files.ipynb) | Python notebook: Python and Jupyter Data Files |
+| 4 | [04-Data Input and Output](./04-Data_Input_Output.ipynb) | Python notebook: Working with input and output |
+| 5 | [05-Plotting Basics](./05-Plotting_Basics.ipynb) | Python notebook: Plotting Basics |
+| 6 | [06-Jupyter Shortcuts](./06-Jupyter_Shortcuts.ipynb) | Python notebook: Jupyter Shortcuts |
+| 7 | [07-Using help and documentation](./07-Using_Help_and_Documentation.ipynb) | Python notebook: Using help and documentation |
+| 8 | [08-Timing and Performance](./08-Timing_and_Performance.ipynb) | Python notebook: Timing and Performance |
+| 9 | [01-Foundations Quiz](./01-Foundations_Quiz.ipynb) | Python notebook: Section Quiz |
+|10 | [02-mini-quiz](./02-mini-quiz.ipynb) | Python notebook: Section Mini-Quiz |
