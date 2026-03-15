@@ -13,4 +13,4 @@
 | 7 | [07-Using help and documentation](./07-Using_Help_and_Documentation.ipynb) | Python notebook: Using help and documentation |
 | 8 | [08-Timing and Performance](./08-Timing_and_Performance.ipynb) | Python notebook: Timing and Performance |
 | 9 | [01-Foundations Quiz](./01-Foundations_Quiz.ipynb) | Python notebook: Section Quiz |
-|10 | [02-mini-quiz](./02-mini-quiz.ipynb) | Python notebook: Section Mini-Quiz |
+| 10 | [02-mini-quiz](./02-mini-quiz.ipynb) | Python notebook: Section Mini-Quiz |
