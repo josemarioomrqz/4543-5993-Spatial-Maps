@@ -4,7 +4,7 @@
 
 | # | Notebook | Assignment Description |
 | - | -------- | ---------------------- |
-| 1 | [01-Magic Commands](./01-magic_commands.ipynb) | Python notebook: Magic Commands for Python |
+| 1 | [01-Lists, Dictionaries and Tuples](./01-Lists_Dicts_and_Tuples.ipynb) | Python notebook: Lists Dictionaries and Tuples |
 | 2 | [02-Markdown and Formatting](./02-Markdown_and_Formatting.ipynb) | Python notebook: Working with Markdown and Formatting |
 | 3 | [03-Work with Files](./03-Work_With_Files.ipynb) | Python notebook: Python and Jupyter Data Files |
 | 4 | [04-Data Input and Output](./04-Data_Input_Output.ipynb) | Python notebook: Working with input and output |
