@@ -1,6 +1,6 @@
 # Assignments Completed For Data Advanced
 
-## Python Notebooks and Markdown
+## Python Notebooks and Assignment Descriptions
 
 | # | Notebook | Assignment Description |
 | - | -------- | ---------------------- |
