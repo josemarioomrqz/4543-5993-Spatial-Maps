@@ -1,1 +1,0 @@
-# Missile Geometry 101
