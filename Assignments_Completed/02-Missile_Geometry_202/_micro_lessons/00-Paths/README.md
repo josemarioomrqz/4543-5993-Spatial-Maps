@@ -9,5 +9,4 @@ Working with file paths in Jupyter: where you are, how to refer to data files, a
 | 02 | [Data Elsewhere](./02-Data_Elsewhere.ipynb) | Reading data files that live outside the current notebook folder |
 | 03 | [Find Project Root](./03-Find_Project_Root.ipynb) | Reliably locating the project root directory from any notebook location |
 
-**NOTE:** This section contains python notebooks with exercises 
-regarding file paths.
+**NOTE:** This section contains python notebooks with exercises regarding file paths.
