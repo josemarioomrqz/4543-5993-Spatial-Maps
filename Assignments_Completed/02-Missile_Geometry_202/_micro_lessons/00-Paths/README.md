@@ -4,6 +4,7 @@ Working with file paths in Jupyter: where you are, how to refer to data files, a
 
 | # | Notebook | Description |
 |---|---|---|
+    
 | 00 | [Working Directory](./00-Working_Directory.ipynb) | What the current working directory is and how Jupyter sets it |
 | 01 | [Relative vs Absolute](./01-Relative_vs_Absolute.ipynb) | When to use relative paths vs absolute paths and the tradeoffs |
 | 02 | [Data Elsewhere](./02-Data_Elsewhere.ipynb) | Reading data files that live outside the current notebook folder |
