@@ -1,4 +1,4 @@
-# Module 01 — JSON & GeoJSON
+# Assignments Completed for Module 01 — JSON & GeoJSON
 
 Reading and understanding JSON and GeoJSON: the data format that underlies everything in this course.
 
