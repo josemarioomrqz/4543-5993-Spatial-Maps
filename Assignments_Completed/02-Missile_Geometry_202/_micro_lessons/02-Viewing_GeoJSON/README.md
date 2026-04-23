@@ -1,4 +1,4 @@
-# Module 02 — Viewing GeoJSON
+# Assignments Completed for Module 02 — Viewing GeoJSON
 
 Getting spatial data onto a map: from browser tools to interactive ipyleaflet maps inside Jupyter notebooks.
 
