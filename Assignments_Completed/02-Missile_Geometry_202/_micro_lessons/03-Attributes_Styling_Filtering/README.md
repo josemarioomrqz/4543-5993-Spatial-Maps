@@ -1,4 +1,4 @@
-# Module 03 — Attributes, Styling & Filtering
+# Assignments Completed for Module 03 — Attributes, Styling & Filtering
 
 Using feature properties to drive visual styling and to selectively display data.
 
