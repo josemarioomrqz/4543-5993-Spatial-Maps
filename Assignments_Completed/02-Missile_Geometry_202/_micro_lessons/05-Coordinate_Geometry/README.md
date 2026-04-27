@@ -1,4 +1,4 @@
-# Module 05 — Coordinate Geometry
+# Finished Assignments for Module 05 — Coordinate Geometry
 
 The geometry of geographic coordinates: valid ranges, bounding boxes, and why lat/lon arithmetic is not the same as flat-plane math.
 
