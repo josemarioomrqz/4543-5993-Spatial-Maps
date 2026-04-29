@@ -1,4 +1,4 @@
-# Assignment Completed for Module 06 — Distance
+# Assignments Completed for Module 06 — Distance
 
 Computing distances on Earth: from naive Euclidean math to spherically-accurate haversine, with real-world applications and batch performance.
 
