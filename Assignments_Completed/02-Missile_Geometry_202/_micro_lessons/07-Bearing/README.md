@@ -1,4 +1,4 @@
-# Module 07 — Bearing
+# Assignments Completed for Module 07 — Bearing
 
 Compass direction as a computable quantity: what bearing means, how to calculate it, and how it drives trajectory and navigation logic.
 
