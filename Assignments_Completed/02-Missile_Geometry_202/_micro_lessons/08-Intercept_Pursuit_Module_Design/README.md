@@ -1,4 +1,4 @@
-# Module 08 — Intercept & Pursuit
+# Assignments Completed for Module 08 — Intercept & Pursuit
 
 Modeling the geometry of one object chasing or intercepting another: from constant-velocity solutions to iterative pursuit curves and animated simulations.
 
