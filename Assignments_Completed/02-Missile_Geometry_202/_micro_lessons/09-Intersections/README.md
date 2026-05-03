@@ -1,4 +1,4 @@
-# Module 09 — Intersections
+# Assignments Completed for Module 09 — Intersections
 
 Detecting when paths cross boundaries: from two-segment math to full country-airspace analysis across real GeoJSON datasets.
 
