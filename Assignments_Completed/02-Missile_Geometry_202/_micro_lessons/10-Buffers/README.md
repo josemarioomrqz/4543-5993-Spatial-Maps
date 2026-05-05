@@ -1,4 +1,4 @@
-# Module 10 — Buffers
+# Assignments Completed for Module 10 — Buffers
 
 Converting a point or path into an area of influence: accurate km-radius circles, line corridors, concentric impact zones, and the CRS distortion that breaks naive approaches.
 
