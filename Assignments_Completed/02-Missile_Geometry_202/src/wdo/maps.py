@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import asyncio
 from typing import Any, Iterable
 
 from ipyleaflet import (
@@ -158,13 +159,16 @@ def add_geojson(
     GeoJSON
         The created GeoJSON layer.
     """
-    layer = GeoJSON(
-        data=data,
-        style=style or {},
-        hover_style=hover_style or {},
-        name=name,
+    layer_kwargs = {
+        "data": data,
+        "style": style or {},
+        "hover_style": hover_style or {},
         **kwargs,
-    )
+    }
+    if name is not None:
+        layer_kwargs["name"] = name
+
+    layer = GeoJSON(**layer_kwargs)
     m.add(layer)
     return layer
 
@@ -202,4 +206,13 @@ def fit_bbox(m: Map, bbox: Iterable[float]) -> None:
     bbox : Iterable[float]
         Bounding box as [min_lon, min_lat, max_lon, max_lat].
     """
-    m.fit_bounds(bbox_to_bounds(bbox))
+    min_lon, min_lat, max_lon, max_lat = bbox
+    try:
+        asyncio.get_running_loop()
+    except RuntimeError:
+        # In plain terminal Python there may be no active asyncio event loop.
+        # Centering still gives a useful fallback; notebooks use fit_bounds.
+        m.center = ((min_lat + max_lat) / 2, (min_lon + max_lon) / 2)
+        return
+
+    m.fit_bounds(bbox_to_bounds((min_lon, min_lat, max_lon, max_lat)))

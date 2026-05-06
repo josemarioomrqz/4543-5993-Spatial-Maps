@@ -159,6 +159,16 @@ def interpolate_latlon_linear(start: LatLon, end: LatLon, n: int) -> List[LatLon
     return pts
 
 
+def midpoint(p1: LatLon, p2: LatLon) -> LatLon:
+    """
+    Return the simple average midpoint between two LatLon objects.
+    """
+    return LatLon(
+        lat=(p1.lat + p2.lat) / 2,
+        lon=(p1.lon + p2.lon) / 2,
+    )
+
+
 # ----------------------------------------
 # Trajectory sampling (list of points)
 # ----------------------------------------
