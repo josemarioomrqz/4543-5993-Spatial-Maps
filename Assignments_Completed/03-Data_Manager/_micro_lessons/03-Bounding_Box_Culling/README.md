@@ -1,4 +1,4 @@
-# Module 03 — Bounding Box Culling
+# Assignments Completed for Module 03 — Bounding Box Culling
 
 Filter features to the visible viewport before rendering. Even the fine LOD file spans the whole world — when the user is looking at Kansas, Siberia should never touch the map.
 
