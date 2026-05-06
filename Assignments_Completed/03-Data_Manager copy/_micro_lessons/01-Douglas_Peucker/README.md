@@ -1,4 +1,4 @@
-# Module 01 — Douglas-Peucker Simplification
+# Assignments Completed for Module 01 — Douglas-Peucker Simplification
 
 Understand and implement the algorithm that reduces the number of points in a line while preserving its shape. This is the core concept behind every LOD pipeline we build.
 
