@@ -1,4 +1,4 @@
-## 12 — Refactoring Spatial Code into Reusable Helpers
+## Finished Assignmment for 12 — Refactoring Spatial Code into Reusable Helpers
 
 ### Goal
 
