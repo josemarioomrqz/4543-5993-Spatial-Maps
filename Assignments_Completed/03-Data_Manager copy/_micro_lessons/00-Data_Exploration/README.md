@@ -1,4 +1,4 @@
-# Module 00 — Data Exploration
+# Assignments Completed for Module 00 — Data Exploration
 
 Understand the raw railroad dataset before touching it. Measure the problem so the solution makes sense.
 
