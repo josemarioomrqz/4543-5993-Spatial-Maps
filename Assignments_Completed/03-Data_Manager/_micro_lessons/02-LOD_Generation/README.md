@@ -1,4 +1,4 @@
-# Module 02 — LOD File Generation
+# Assignments Completed for Module 02 — LOD File Generation
 
 Apply simplification at four tolerance levels and write the output files that power the rest of the project. This is where epsilon values become real files on disk.
 
