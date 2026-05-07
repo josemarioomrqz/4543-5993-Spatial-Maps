@@ -1,4 +1,4 @@
-# Module 07 — The Library Version
+# Assignments Completed for Module 07 — The Library Version
 
 Reproduce the LOD pipeline using `tippecanoe` and understand what it automates. This is the payoff: students who built the small version can now read the industrial tool with comprehension instead of confusion.
 
