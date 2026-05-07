@@ -1,4 +1,4 @@
-# Module 05 — Zoom-Driven Layer Switching
+# Assignments Completed for Module 05 — Zoom-Driven Layer Switching
 
 Select the correct LOD file based on zoom level. Combine the decision function with the grid index so both the data source and the spatial index switch together as the user zooms.
 
