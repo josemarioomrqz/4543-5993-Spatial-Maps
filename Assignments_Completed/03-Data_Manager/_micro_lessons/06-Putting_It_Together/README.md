@@ -1,4 +1,4 @@
-# Module 06 — Putting It All Together
+# Finished Assignments for Module 06 — Putting It All Together
 
 Assemble all components into a clean, working railroad viewer. Then step back and honestly measure what the handbuilt system can and cannot do.
 
