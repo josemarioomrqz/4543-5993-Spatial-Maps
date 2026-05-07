@@ -1,4 +1,4 @@
-# Module 04 — Spatial Grid Index
+# Assignments Completed for Module 04 — Spatial Grid Index
 
 Replace the linear feature scan with a grid-based spatial index. Instead of checking every feature on every pan, pre-bucket features into geographic cells and query only the cells the viewport touches.
 
