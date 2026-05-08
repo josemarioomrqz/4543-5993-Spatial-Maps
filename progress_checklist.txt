@@ -1,0 +1,1493 @@
+
+============================================================
+  EXPECTED STRUCTURE
+  (✅ = found in your completed_assignments/  ❌ = missing)
+============================================================
+
+completed_assignments/
+├── 01-Python_Foundations/
+│   ├── 01-Working_with_Data_Basic/
+│   │   ├── Assessments/
+│   │   │   └── ✅ 02a-mini_quiz.ipynb
+│   │   └── Lessons/
+│   │       ├── 01-Lists/
+│   │       │   └── ✅ 01-Lists.ipynb
+│   │       ├── 02-Tuples/
+│   │       │   └── ✅ 02-Tuples.ipynb
+│   │       ├── 03-Data_Types_and_Arithmetic/
+│   │       │   └── ✅ 03-Data_Types_and_Arithmetic.ipynb
+│   │       └── 03-Dictionaries/
+│   │           └── ✅ 03-Dictionaries.ipynb
+│   ├── 02-Scalar_Types_and_Control_Flow/
+│   │   ├── 01-Scalar_Types/
+│   │   │   └── ✅ 01-Scalar_Types.ipynb
+│   │   ├── Assessments/
+│   │   │   └── ✅ mini_quiz.ipynb
+│   │   └── Lessons/
+│   │       └── 02-Control_Flow/
+│   │           └── ✅ 02-Control_Flow.ipynb
+│   ├── 03-Loops_and_Iteration/
+│   │   ├── Assessments/
+│   │   │   └── ✅ mini_quiz.ipynb
+│   │   └── Lessons/
+│   │       ├── 01-For_Loops/
+│   │       │   └── ✅ 01-For_Loops.ipynb
+│   │       ├── 02-While_loops/
+│   │       │   └── ✅ 02-While_Loops.ipynb
+│   │       └── 03-File_Loops_and_With/
+│   │           └── ✅ 03-File_Loops_and_With.ipynb
+│   ├── 04-Foundations/
+│   │   ├── Assessments/
+│   │   │   ├── ✅ 01-Foundations_Quiz.ipynb
+│   │   │   └── ✅ 02-mini_quiz.ipynb
+│   │   └── Lessons/
+│   │       ├── 01-Magic_Commands/
+│   │       │   └── ✅ 01-magic_commands.ipynb
+│   │       ├── 02-Markdown_and_Formatting/
+│   │       │   └── ✅ 02-Markdown_and_Formatting.ipynb
+│   │       ├── 03-Work_With_Files/
+│   │       │   └── ✅ 03-Work_With_Files.ipynb
+│   │       ├── 04-Data_Input_Output/
+│   │       │   └── ✅ 04-Data_Input_Output.ipynb
+│   │       ├── 05-Plotting_Basics/
+│   │       │   └── ✅ 05-Plotting_Basics.ipynb
+│   │       ├── 06-Jupyter_Shortcuts_and_Productivity/
+│   │       │   └── ✅ 06-Jupyter_Shortcuts_and_Productivity.ipynb
+│   │       ├── 07-Using_Help_and_Docs/
+│   │       │   └── ✅ 07-Using_Help_and_Docs.ipynb
+│   │       └── 08-Timing_and_Performance/
+│   │           └── ✅ 08-Timing_and_Performance.ipynb
+│   ├── 05-Working_with_Data_Adv/
+│   │   ├── Assessments/
+│   │   │   └── ✅ mini_quiz.ipynb
+│   │   └── Lessons/
+│   │       ├── 01-Lists_Dicts_and_Tuples/
+│   │       │   └── ✅ 01-Lists_Dicts_and_Tuples.ipynb
+│   │       ├── 02-Pandas_Series_and_Dataframes/
+│   │       │   └── ✅ 02-Pandas_Series_and_Dataframes.ipynb
+│   │       ├── 03-Loading_and_Exploring_Eata/
+│   │       │   └── ✅ 03-Loading_and_Exploring_Eata.ipynb
+│   │       ├── 04-Indexing_and_Selection/
+│   │       │   └── ✅ 04-Indexing_and_Selection.ipynb
+│   │       ├── 05-Basic_Cleaning/
+│   │       │   └── ✅ 05-Basic_Cleaning.ipynb
+│   │       ├── 06-Column_Operations/
+│   │       │   └── ✅ 06-Column_Operations.ipynb
+│   │       ├── 07-Sorting_and_Filtering/
+│   │       │   └── ✅ 07-Sorting_and_Filtering.ipynb
+│   │       ├── 08-Pandas_Wrangle_Lab/
+│   │       │   └── ✅ 08-Pandas_Wrangle_Lab.ipynb
+│   │       └── 09-Survey_Cleaning_Assignment/
+│   │           └── ✅ 09-Survey_Cleaning_Assignment.ipynb
+│   └── 06-Describing_and_Visualizing_Data/
+│       ├── Assessments/
+│       │   └── ✅ mini_quiz.ipynb
+│       └── Lessons/
+│           ├── 01-Types_of_Data/
+│           │   └── ✅ 01-Types_of_Data.ipynb
+│           ├── 02-Summary_Statistics/
+│           │   └── ✅ 02-Summary_Statistics.ipynb
+│           ├── 03-Matplotlib_Basics/
+│           │   └── ✅ 03-Matplotlib_Basics.ipynb
+│           ├── 04-Seaborn_Basics/
+│           │   └── ✅ 04-Seaborn_Basics.ipynb
+│           └── 05-Visualization_MiniLab/
+│               └── ✅ 05-Visualization_MiniLab.ipynb
+├── 02-Missile_Geometry_101/
+│   ├── ❌ setup.ipynb
+│   └── _micro_lessons/
+│       ├── ❌ 00-Working_Directory.ipynb
+│       ├── ❌ 01-Data_Elsewhere.ipynb
+│       ├── ❌ 02-Viewing_Geojson.ipynb
+│       ├── ❌ 03-Style_W_Logic.ipynb
+│       ├── ❌ 04-Distance.ipynb
+│       ├── ❌ 05-Geo_and_Json_overview.ipynb
+│       ├── ❌ 06-Distances.ipynb
+│       ├── ❌ 07-InteractiveMaps.ipynb
+│       ├── ❌ 08-InstallingLocalLib.ipynb
+│       └── ❌ 09-YourOwnLibrary.ipynb
+├── 02-Missile_Geometry_202/
+│   └── _micro_lessons/
+│       ├── 00-Paths/
+│       │   ├── ✅ 00-Working_Directory.ipynb
+│       │   ├── ✅ 01-Relative_vs_Absolute.ipynb
+│       │   ├── ✅ 02-Data_Elsewhere.ipynb
+│       │   └── ✅ 03-Find_Project_Root.ipynb
+│       ├── 01-JSON_GeoJSON/
+│       │   ├── ✅ 00-Reading_JSON.ipynb
+│       │   ├── ✅ 01-GeoJSON_Structure.ipynb
+│       │   └── ✅ 02-Feature_Collections.ipynb
+│       ├── 02-Viewing_GeoJSON/
+│       │   ├── ✅ 00-Geojson.io.ipynb
+│       │   ├── ✅ 01-iPyLeaflet_Intro.ipynb
+│       │   ├── ✅ 02-Add_GeoJSON.ipynb
+│       │   └── ✅ 03-Map_Control.ipynb
+│       ├── 03-Attributes_Styling_Filtering/
+│       │   ├── ✅ 00-Properties.ipynb
+│       │   ├── ✅ 01-Style_Functions.ipynb
+│       │   └── ✅ 02-Filtering.ipynb
+│       ├── 04-Interactive_Maps/
+│       │   ├── ✅ 00-Map_Events.ipynb
+│       │   ├── ✅ 01-Click_Interactions.ipynb
+│       │   ├── ✅ 02-Dynamic_Layers.ipynb
+│       │   └── ✅ 03-User_Feedback.ipynb
+│       ├── 05-Coordinate_Geometry/
+│       │   ├── ✅ 00-Coordinate_Ranges.ipynb
+│       │   ├── ✅ 01-Compute_BBox.ipynb
+│       │   ├── ✅ 02-Draw_BBox.ipynb
+│       │   └── ✅ 03-Why_LatLon_Is_Weird.ipynb
+│       ├── 06-Distance/
+│       │   ├── ✅ 00-Euclidean_Distance.ipynb
+│       │   ├── ✅ 01-Haversine_Distance.ipynb
+│       │   ├── ✅ 02-Compare_Methods.ipynb
+│       │   ├── ✅ 03-Distance_Applications.ipynb
+│       │   └── ✅ 04-Performance_Batching.ipynb
+│       ├── 07-Bearing/
+│       │   ├── ✅ 00-What_Is_Bearing.ipynb
+│       │   ├── ✅ 01-Compute_Bearing.ipynb
+│       │   ├── ✅ 02-Bearing_V_Direction.ipynb
+│       │   ├── ✅ 03-Bearing_Applications.ipynb
+│       │   └── ✅ 04-Advanced_Bearing.ipynb
+│       ├── 08-Intercept_Pursuit_Module_Design/
+│       │   ├── ✅ 00-Problem_Setup.ipynb
+│       │   ├── ✅ 01-Constant_Velocity_Intercept.ipynb
+│       │   ├── ✅ 02-Iterative_Pursuit.ipynb
+│       │   ├── ✅ 03-Visual_Simulation.ipynb
+│       │   ├── ✅ 04-Strategy_and_Limits.ipynb
+│       │   └── ✅ 05-Advanced_Topics.ipynb
+│       ├── 09-Intersections/
+│       │   ├── ✅ 00-Lines_as_Paths.ipynb
+│       │   ├── ✅ 01-Line_Segment_Intersection.ipynb
+│       │   ├── ✅ 02-Line_vs_Polygon_Basics.ipynb
+│       │   ├── ✅ 03-Detecting_Intersections.ipynb
+│       │   ├── ✅ 04-Highlighting_Intersected_Features.ipynb
+│       │   └── ✅ 05-Applications_Missile_Paths.ipynb
+│       ├── 10-Buffers/
+│       │   ├── ✅ 00_Buffer_Concepts.ipynb
+│       │   ├── ✅ 01_Buffering_Points.ipynb
+│       │   ├── ✅ 02-Buffering_Lines.ipynb
+│       │   ├── ✅ 03-Comparing_Buffer_Sizes.ipynb
+│       │   ├── ✅ 04-Buffer_Visualization_Strategies.ipynb
+│       │   ├── ✅ 05-CRS_Limitations.ipynb
+│       │   └── ✅ 06-Applications_Impact_Zones.ipynb
+│       ├── 11-Point_In_Polygon/
+│       │   ├── ✅ 00_Click_Capture.ipynb
+│       │   ├── ✅ 01_Point_Representation.ipynb
+│       │   ├── ✅ 02_Point_In_Polygon_Basics.ipynb
+│       │   ├── ✅ 03_Ray_Casting_Algorithm.ipynb
+│       │   ├── ✅ 04_Testing_Against_Multiple_Features.ipynb
+│       │   ├── ✅ 05_Region_Classification.ipynb
+│       │   └── ✅ 06_Interactive_Click_Applications.ipynb
+│       ├── 12-Refactoring/
+│       │   └── ✅ 01-From-Notebook-to-Module.ipynb
+│       └── 13-WDO_Library/
+│           └── ✅ 01-Installing-and-Using-WDO.ipynb
+└── 03-Data_Manager/
+    └── _micro_lessons/
+        ├── 00-Data_Exploration/
+        │   ├── ✅ 00-Loading_and_Inspecting.ipynb
+        │   └── ✅ 01-Measuring_the_Problem.ipynb
+        ├── 01-Douglas_Peucker/
+        │   ├── ✅ 00-The_Algorithm.ipynb
+        │   ├── ✅ 01-Implementation.ipynb
+        │   └── ✅ 02-Epsilon_and_Tradeoffs.ipynb
+        ├── 02-LOD_Generation/
+        │   ├── ✅ 00-Designing_the_Pipeline.ipynb
+        │   ├── ✅ 01-Writing_the_LOD_Files.ipynb
+        │   └── ✅ 02-Comparing_the_Levels.ipynb
+        ├── 03-Bounding_Box_Culling/
+        │   ├── ✅ 00-Bounding_Boxes.ipynb
+        │   ├── ✅ 01-Intersection_Test.ipynb
+        │   └── ✅ 02-Viewport_Culling.ipynb
+        ├── 04-Spatial_Grid_Index/
+        │   ├── ✅ 00-The_Grid_Idea.ipynb
+        │   ├── ✅ 01-Building_the_Index.ipynb
+        │   └── ✅ 02-Querying_and_Benchmarking.ipynb
+        ├── 05-Zoom_Layer_Switching/
+        │   ├── ✅ 00-The_Decision_Function.ipynb
+        │   └── ✅ 01-Live_Layer_Switching.ipynb
+        ├── 06-Putting_It_Together/
+        │   ├── ✅ 00-The_Viewer.ipynb
+        │   └── ✅ 01-What_We_Built.ipynb
+        └── 07-The_Library_Version/
+            ├── ✅ 00-What_Are_Vector_Tiles.ipynb
+            ├── ✅ 01-Using_Tippecanoe.ipynb
+            └── ✅ 02-The_Comparison.ipynb
+
+============================================================
+  YOUR completed_assignments/ TREE
+============================================================
+
+completed_assignments/
+├── 01-Python_Foundations
+│   ├── 01-Working_with_Data_Basic
+│   │   ├── Assessments
+│   │   │   ├── 02a-mini_quiz.ipynb
+│   │   │   └── 02b-mini_quiz.md
+│   │   ├── Lessons
+│   │   │   ├── 01-Lists
+│   │   │   │   └── 01-Lists.ipynb
+│   │   │   ├── 02-Tuples
+│   │   │   │   └── 02-Tuples.ipynb
+│   │   │   ├── 03-Data_Types_and_Arithmetic
+│   │   │   │   └── 03-Data_Types_and_Arithmetic.ipynb
+│   │   │   └── 03-Dictionaries
+│   │   │       └── 03-Dictionaries.ipynb
+│   │   ├── 01-worksheet.md
+│   │   └── README.MD
+│   ├── 02-Scalar_Types_and_Control_Flow
+│   │   ├── 01-Scalar_Types
+│   │   │   └── 01-Scalar_Types.ipynb
+│   │   ├── Assessments
+│   │   │   ├── mini_quiz.ipynb
+│   │   │   └── mini_quiz.md
+│   │   ├── Lessons
+│   │   │   └── 02-Control_Flow
+│   │   │       └── 02-Control_Flow.ipynb
+│   │   ├── README.md
+│   │   └── worksheet.md
+│   ├── 03-Loops_and_Iteration
+│   │   ├── Assessments
+│   │   │   ├── mini_quiz.ipynb
+│   │   │   └── mini_quiz.md
+│   │   ├── Lessons
+│   │   │   ├── 01-For_Loops
+│   │   │   │   └── 01-For_Loops.ipynb
+│   │   │   ├── 02-While_loops
+│   │   │   │   └── 02-While_Loops.ipynb
+│   │   │   └── 03-File_Loops_and_With
+│   │   │       └── 03-File_Loops_and_With.ipynb
+│   │   ├── data.txt
+│   │   ├── notes.txt
+│   │   ├── README.md
+│   │   └── worksheet.md
+│   ├── 04-Foundations
+│   │   ├── Assessments
+│   │   │   ├── 01-Foundations_Quiz.ipynb
+│   │   │   └── 02-mini_quiz.ipynb
+│   │   ├── Lessons
+│   │   │   ├── 01-Magic_Commands
+│   │   │   │   └── 01-magic_commands.ipynb
+│   │   │   ├── 02-Markdown_and_Formatting
+│   │   │   │   └── 02-Markdown_and_Formatting.ipynb
+│   │   │   ├── 03-Work_With_Files
+│   │   │   │   └── 03-Work_With_Files.ipynb
+│   │   │   ├── 04-Data_Input_Output
+│   │   │   │   └── 04-Data_Input_Output.ipynb
+│   │   │   ├── 05-Plotting_Basics
+│   │   │   │   └── 05-Plotting_Basics.ipynb
+│   │   │   ├── 06-Jupyter_Shortcuts_and_Productivity
+│   │   │   │   └── 06-Jupyter_Shortcuts_and_Productivity.ipynb
+│   │   │   ├── 07-Using_Help_and_Docs
+│   │   │   │   └── 07-Using_Help_and_Docs.ipynb
+│   │   │   └── 08-Timing_and_Performance
+│   │   │       └── 08-Timing_and_Performance.ipynb
+│   │   ├── 06-Jupyter_Shortcuts_and_Productivity.html
+│   │   ├── courses.json
+│   │   ├── data.json
+│   │   ├── example.txt
+│   │   ├── hello.py
+│   │   ├── hello.txt
+│   │   ├── my_courses.csv
+│   │   ├── my_data.csv
+│   │   ├── my_session.py
+│   │   ├── mydata.csv
+│   │   ├── README.md
+│   │   ├── scores.csv
+│   │   ├── scores.xlsx
+│   │   ├── students.csv
+│   │   ├── students.xlsx
+│   │   └── students_copy.csv
+│   ├── 05-Working_with_Data_Adv
+│   │   ├── Assessments
+│   │   │   └── mini_quiz.ipynb
+│   │   ├── Lessons
+│   │   │   ├── 01-Lists_Dicts_and_Tuples
+│   │   │   │   └── 01-Lists_Dicts_and_Tuples.ipynb
+│   │   │   ├── 02-Pandas_Series_and_Dataframes
+│   │   │   │   └── 02-Pandas_Series_and_Dataframes.ipynb
+│   │   │   ├── 03-Loading_and_Exploring_Eata
+│   │   │   │   └── 03-Loading_and_Exploring_Eata.ipynb
+│   │   │   ├── 04-Indexing_and_Selection
+│   │   │   │   └── 04-Indexing_and_Selection.ipynb
+│   │   │   ├── 05-Basic_Cleaning
+│   │   │   │   └── 05-Basic_Cleaning.ipynb
+│   │   │   ├── 06-Column_Operations
+│   │   │   │   └── 06-Column_Operations.ipynb
+│   │   │   ├── 07-Sorting_and_Filtering
+│   │   │   │   └── 07-Sorting_and_Filtering.ipynb
+│   │   │   ├── 08-Pandas_Wrangle_Lab
+│   │   │   │   └── 08-Pandas_Wrangle_Lab.ipynb
+│   │   │   └── 09-Survey_Cleaning_Assignment
+│   │   │       └── 09-Survey_Cleaning_Assignment.ipynb
+│   │   ├── d_students.csv
+│   │   ├── meta.yaml
+│   │   ├── README.md
+│   │   ├── student_scores_cleaned.csv
+│   │   ├── survey_cleaned.csv
+│   │   └── survey_dirty.csv
+│   ├── 06-Describing_and_Visualizing_Data
+│   │   ├── Assessments
+│   │   │   └── mini_quiz.ipynb
+│   │   ├── Lessons
+│   │   │   ├── 01-Types_of_Data
+│   │   │   │   └── 01-Types_of_Data.ipynb
+│   │   │   ├── 02-Summary_Statistics
+│   │   │   │   └── 02-Summary_Statistics.ipynb
+│   │   │   ├── 03-Matplotlib_Basics
+│   │   │   │   └── 03-Matplotlib_Basics.ipynb
+│   │   │   ├── 04-Seaborn_Basics
+│   │   │   │   └── 04-Seaborn_Basics.ipynb
+│   │   │   └── 05-Visualization_MiniLab
+│   │   │       └── 05-Visualization_MiniLab.ipynb
+│   │   └── README.md
+│   ├── Data
+│   │   ├── country-json
+│   │   │   ├── country-by-abbreviation.json
+│   │   │   ├── country-by-alphabet-letters.json
+│   │   │   ├── country-by-avg-male-height.json
+│   │   │   ├── country-by-barcode-prefix.json
+│   │   │   ├── country-by-calling-code.json
+│   │   │   ├── country-by-capital-city.json
+│   │   │   ├── country-by-cities.json
+│   │   │   ├── country-by-coastline.json
+│   │   │   ├── country-by-continent.json
+│   │   │   ├── country-by-currency-code.json
+│   │   │   ├── country-by-currency-name.json
+│   │   │   ├── country-by-domain-tld.json
+│   │   │   ├── country-by-driving-side.json
+│   │   │   ├── country-by-elevation.json
+│   │   │   ├── country-by-flag.json
+│   │   │   ├── country-by-geo-coordinates.json
+│   │   │   ├── country-by-government-type.json
+│   │   │   ├── country-by-IATA-code.json
+│   │   │   ├── country-by-independence-date.json
+│   │   │   ├── country-by-iso-numeric.json
+│   │   │   ├── country-by-landlocked.json
+│   │   │   ├── country-by-languages.json
+│   │   │   ├── country-by-life-expectancy.json
+│   │   │   ├── country-by-name.json
+│   │   │   ├── country-by-national-dish.json
+│   │   │   ├── country-by-national-symbol.json
+│   │   │   ├── country-by-population-density.json
+│   │   │   ├── country-by-population.json
+│   │   │   ├── country-by-region-in-world.json
+│   │   │   ├── country-by-religion.json
+│   │   │   ├── country-by-surface-area.json
+│   │   │   └── country-by-yearly-average-temperature.json
+│   │   ├── earthquakes
+│   │   │   ├── 1950_1.json
+│   │   │   ├── 1950_10.json
+│   │   │   ├── 1950_11.json
+│   │   │   ├── 1950_12.json
+│   │   │   ├── 1950_2.json
+│   │   │   ├── 1950_3.json
+│   │   │   ├── 1950_4.json
+│   │   │   ├── 1950_5.json
+│   │   │   ├── 1950_6.json
+│   │   │   ├── 1950_7.json
+│   │   │   ├── 1950_8.json
+│   │   │   ├── 1950_9.json
+│   │   │   ├── 1951_1.json
+│   │   │   ├── 1951_10.json
+│   │   │   ├── 1951_11.json
+│   │   │   ├── 1951_12.json
+│   │   │   ├── 1951_2.json
+│   │   │   ├── 1951_3.json
+│   │   │   ├── 1951_4.json
+│   │   │   ├── 1951_5.json
+│   │   │   ├── 1951_6.json
+│   │   │   ├── 1951_7.json
+│   │   │   ├── 1951_8.json
+│   │   │   ├── 1951_9.json
+│   │   │   ├── 1952_1.json
+│   │   │   ├── 1952_10.json
+│   │   │   ├── 1952_11.json
+│   │   │   ├── 1952_12.json
+│   │   │   ├── 1952_2.json
+│   │   │   ├── 1952_3.json
+│   │   │   ├── 1952_4.json
+│   │   │   ├── 1952_5.json
+│   │   │   ├── 1952_6.json
+│   │   │   ├── 1952_7.json
+│   │   │   ├── 1952_8.json
+│   │   │   ├── 1952_9.json
+│   │   │   ├── 1953_1.json
+│   │   │   ├── 1953_10.json
+│   │   │   ├── 1953_11.json
+│   │   │   ├── 1953_12.json
+│   │   │   ├── 1953_2.json
+│   │   │   ├── 1953_3.json
+│   │   │   ├── 1953_4.json
+│   │   │   ├── 1953_5.json
+│   │   │   ├── 1953_6.json
+│   │   │   ├── 1953_7.json
+│   │   │   ├── 1953_8.json
+│   │   │   ├── 1953_9.json
+│   │   │   ├── 1954_1.json
+│   │   │   ├── 1954_10.json
+│   │   │   ├── 1954_11.json
+│   │   │   ├── 1954_12.json
+│   │   │   ├── 1954_2.json
+│   │   │   ├── 1954_3.json
+│   │   │   ├── 1954_4.json
+│   │   │   ├── 1954_5.json
+│   │   │   ├── 1954_6.json
+│   │   │   ├── 1954_7.json
+│   │   │   ├── 1954_8.json
+│   │   │   ├── 1954_9.json
+│   │   │   ├── 1955_1.json
+│   │   │   ├── 1955_10.json
+│   │   │   ├── 1955_11.json
+│   │   │   ├── 1955_12.json
+│   │   │   ├── 1955_2.json
+│   │   │   ├── 1955_3.json
+│   │   │   ├── 1955_4.json
+│   │   │   ├── 1955_5.json
+│   │   │   ├── 1955_6.json
+│   │   │   ├── 1955_7.json
+│   │   │   ├── 1955_8.json
+│   │   │   ├── 1955_9.json
+│   │   │   ├── 1956_1.json
+│   │   │   ├── 1956_10.json
+│   │   │   ├── 1956_11.json
+│   │   │   ├── 1956_12.json
+│   │   │   ├── 1956_2.json
+│   │   │   ├── 1956_3.json
+│   │   │   ├── 1956_4.json
+│   │   │   ├── 1956_5.json
+│   │   │   ├── 1956_6.json
+│   │   │   ├── 1956_7.json
+│   │   │   ├── 1956_8.json
+│   │   │   ├── 1956_9.json
+│   │   │   ├── 1957_1.json
+│   │   │   ├── 1957_10.json
+│   │   │   ├── 1957_11.json
+│   │   │   ├── 1957_12.json
+│   │   │   ├── 1957_2.json
+│   │   │   ├── 1957_3.json
+│   │   │   ├── 1957_4.json
+│   │   │   ├── 1957_5.json
+│   │   │   ├── 1957_6.json
+│   │   │   ├── 1957_7.json
+│   │   │   ├── 1957_8.json
+│   │   │   ├── 1957_9.json
+│   │   │   ├── 1958_1.json
+│   │   │   ├── 1958_10.json
+│   │   │   ├── 1958_11.json
+│   │   │   ├── 1958_12.json
+│   │   │   ├── 1958_2.json
+│   │   │   ├── 1958_3.json
+│   │   │   ├── 1958_4.json
+│   │   │   ├── 1958_5.json
+│   │   │   ├── 1958_6.json
+│   │   │   ├── 1958_7.json
+│   │   │   ├── 1958_8.json
+│   │   │   ├── 1958_9.json
+│   │   │   ├── 1959_1.json
+│   │   │   ├── 1959_10.json
+│   │   │   ├── 1959_11.json
+│   │   │   ├── 1959_12.json
+│   │   │   ├── 1959_2.json
+│   │   │   ├── 1959_3.json
+│   │   │   ├── 1959_4.json
+│   │   │   ├── 1959_5.json
+│   │   │   ├── 1959_6.json
+│   │   │   ├── 1959_7.json
+│   │   │   ├── 1959_8.json
+│   │   │   ├── 1959_9.json
+│   │   │   ├── 1960_1.json
+│   │   │   ├── 1960_10.json
+│   │   │   ├── 1960_11.json
+│   │   │   ├── 1960_12.json
+│   │   │   ├── 1960_2.json
+│   │   │   ├── 1960_3.json
+│   │   │   ├── 1960_4.json
+│   │   │   ├── 1960_5.json
+│   │   │   ├── 1960_6.json
+│   │   │   ├── 1960_7.json
+│   │   │   ├── 1960_8.json
+│   │   │   ├── 1960_9.json
+│   │   │   ├── 1961_1.json
+│   │   │   ├── 1961_10.json
+│   │   │   ├── 1961_11.json
+│   │   │   ├── 1961_12.json
+│   │   │   ├── 1961_2.json
+│   │   │   ├── 1961_3.json
+│   │   │   ├── 1961_4.json
+│   │   │   ├── 1961_5.json
+│   │   │   ├── 1961_6.json
+│   │   │   ├── 1961_7.json
+│   │   │   ├── 1961_8.json
+│   │   │   ├── 1961_9.json
+│   │   │   ├── 1962_1.json
+│   │   │   ├── 1962_10.json
+│   │   │   ├── 1962_11.json
+│   │   │   ├── 1962_12.json
+│   │   │   ├── 1962_2.json
+│   │   │   ├── 1962_3.json
+│   │   │   ├── 1962_4.json
+│   │   │   ├── 1962_5.json
+│   │   │   ├── 1962_6.json
+│   │   │   ├── 1962_7.json
+│   │   │   ├── 1962_8.json
+│   │   │   ├── 1962_9.json
+│   │   │   ├── 1963_1.json
+│   │   │   ├── 1963_10.json
+│   │   │   ├── 1963_11.json
+│   │   │   ├── 1963_12.json
+│   │   │   ├── 1963_2.json
+│   │   │   ├── 1963_3.json
+│   │   │   ├── 1963_4.json
+│   │   │   ├── 1963_5.json
+│   │   │   ├── 1963_6.json
+│   │   │   ├── 1963_7.json
+│   │   │   ├── 1963_8.json
+│   │   │   ├── 1963_9.json
+│   │   │   ├── 1964_1.json
+│   │   │   ├── 1964_10.json
+│   │   │   ├── 1964_11.json
+│   │   │   ├── 1964_12.json
+│   │   │   ├── 1964_2.json
+│   │   │   ├── 1964_3.json
+│   │   │   ├── 1964_4.json
+│   │   │   ├── 1964_5.json
+│   │   │   ├── 1964_6.json
+│   │   │   ├── 1964_7.json
+│   │   │   ├── 1964_8.json
+│   │   │   ├── 1964_9.json
+│   │   │   ├── 1965_1.json
+│   │   │   ├── 1965_10.json
+│   │   │   ├── 1965_11.json
+│   │   │   ├── 1965_12.json
+│   │   │   ├── 1965_2.json
+│   │   │   ├── 1965_3.json
+│   │   │   ├── 1965_4.json
+│   │   │   ├── 1965_5.json
+│   │   │   ├── 1965_6.json
+│   │   │   ├── 1965_7.json
+│   │   │   ├── 1965_8.json
+│   │   │   ├── 1965_9.json
+│   │   │   ├── 1966_1.json
+│   │   │   ├── 1966_10.json
+│   │   │   ├── 1966_11.json
+│   │   │   ├── 1966_12.json
+│   │   │   ├── 1966_2.json
+│   │   │   ├── 1966_3.json
+│   │   │   ├── 1966_4.json
+│   │   │   ├── 1966_5.json
+│   │   │   ├── 1966_6.json
+│   │   │   ├── 1966_7.json
+│   │   │   ├── 1966_8.json
+│   │   │   ├── 1966_9.json
+│   │   │   ├── 1967_1.json
+│   │   │   ├── 1967_10.json
+│   │   │   ├── 1967_11.json
+│   │   │   ├── 1967_12.json
+│   │   │   ├── 1967_2.json
+│   │   │   ├── 1967_3.json
+│   │   │   ├── 1967_4.json
+│   │   │   ├── 1967_5.json
+│   │   │   ├── 1967_6.json
+│   │   │   ├── 1967_7.json
+│   │   │   ├── 1967_8.json
+│   │   │   ├── 1967_9.json
+│   │   │   ├── 1968_1.json
+│   │   │   ├── 1968_10.json
+│   │   │   ├── 1968_11.json
+│   │   │   ├── 1968_12.json
+│   │   │   ├── 1968_2.json
+│   │   │   ├── 1968_3.json
+│   │   │   ├── 1968_4.json
+│   │   │   ├── 1968_5.json
+│   │   │   ├── 1968_6.json
+│   │   │   ├── 1968_7.json
+│   │   │   ├── 1968_8.json
+│   │   │   ├── 1968_9.json
+│   │   │   ├── 1969_1.json
+│   │   │   ├── 1969_10.json
+│   │   │   ├── 1969_11.json
+│   │   │   ├── 1969_12.json
+│   │   │   ├── 1969_2.json
+│   │   │   ├── 1969_3.json
+│   │   │   ├── 1969_4.json
+│   │   │   ├── 1969_5.json
+│   │   │   ├── 1969_6.json
+│   │   │   ├── 1969_7.json
+│   │   │   ├── 1969_8.json
+│   │   │   ├── 1969_9.json
+│   │   │   ├── 1970_1.json
+│   │   │   ├── 1970_10.json
+│   │   │   ├── 1970_11.json
+│   │   │   ├── 1970_12.json
+│   │   │   ├── 1970_2.json
+│   │   │   ├── 1970_3.json
+│   │   │   ├── 1970_4.json
+│   │   │   ├── 1970_5.json
+│   │   │   ├── 1970_6.json
+│   │   │   ├── 1970_7.json
+│   │   │   ├── 1970_8.json
+│   │   │   ├── 1970_9.json
+│   │   │   ├── 1971_1.json
+│   │   │   ├── 1971_10.json
+│   │   │   ├── 1971_11.json
+│   │   │   ├── 1971_12.json
+│   │   │   ├── 1971_2.json
+│   │   │   ├── 1971_3.json
+│   │   │   ├── 1971_4.json
+│   │   │   ├── 1971_5.json
+│   │   │   ├── 1971_6.json
+│   │   │   ├── 1971_7.json
+│   │   │   ├── 1971_8.json
+│   │   │   ├── 1971_9.json
+│   │   │   ├── 1972_1.json
+│   │   │   ├── 1972_10.json
+│   │   │   ├── 1972_11.json
+│   │   │   ├── 1972_12.json
+│   │   │   ├── 1972_2.json
+│   │   │   ├── 1972_3.json
+│   │   │   ├── 1972_4.json
+│   │   │   ├── 1972_5.json
+│   │   │   ├── 1972_6.json
+│   │   │   ├── 1972_7.json
+│   │   │   ├── 1972_8.json
+│   │   │   ├── 1972_9.json
+│   │   │   ├── 1973_1.json
+│   │   │   ├── 1973_10.json
+│   │   │   ├── 1973_11.json
+│   │   │   ├── 1973_12.json
+│   │   │   ├── 1973_2.json
+│   │   │   ├── 1973_3.json
+│   │   │   ├── 1973_4.json
+│   │   │   ├── 1973_5.json
+│   │   │   ├── 1973_6.json
+│   │   │   ├── 1973_7.json
+│   │   │   ├── 1973_8.json
+│   │   │   ├── 1973_9.json
+│   │   │   ├── 1974_1.json
+│   │   │   ├── 1974_10.json
+│   │   │   ├── 1974_11.json
+│   │   │   ├── 1974_12.json
+│   │   │   ├── 1974_2.json
+│   │   │   ├── 1974_3.json
+│   │   │   ├── 1974_4.json
+│   │   │   ├── 1974_5.json
+│   │   │   ├── 1974_6.json
+│   │   │   ├── 1974_7.json
+│   │   │   ├── 1974_8.json
+│   │   │   ├── 1974_9.json
+│   │   │   ├── 1975_1.json
+│   │   │   ├── 1975_10.json
+│   │   │   ├── 1975_11.json
+│   │   │   ├── 1975_12.json
+│   │   │   ├── 1975_2.json
+│   │   │   ├── 1975_3.json
+│   │   │   ├── 1975_4.json
+│   │   │   ├── 1975_5.json
+│   │   │   ├── 1975_6.json
+│   │   │   ├── 1975_7.json
+│   │   │   ├── 1975_8.json
+│   │   │   ├── 1975_9.json
+│   │   │   ├── 1976_1.json
+│   │   │   ├── 1976_10.json
+│   │   │   ├── 1976_11.json
+│   │   │   ├── 1976_12.json
+│   │   │   ├── 1976_2.json
+│   │   │   ├── 1976_3.json
+│   │   │   ├── 1976_4.json
+│   │   │   ├── 1976_5.json
+│   │   │   ├── 1976_6.json
+│   │   │   ├── 1976_7.json
+│   │   │   ├── 1976_8.json
+│   │   │   ├── 1976_9.json
+│   │   │   ├── 1977_1.json
+│   │   │   ├── 1977_10.json
+│   │   │   ├── 1977_11.json
+│   │   │   ├── 1977_12.json
+│   │   │   ├── 1977_2.json
+│   │   │   ├── 1977_3.json
+│   │   │   ├── 1977_4.json
+│   │   │   ├── 1977_5.json
+│   │   │   ├── 1977_6.json
+│   │   │   ├── 1977_7.json
+│   │   │   ├── 1977_8.json
+│   │   │   ├── 1977_9.json
+│   │   │   ├── 1978_1.json
+│   │   │   ├── 1978_10.json
+│   │   │   ├── 1978_11.json
+│   │   │   ├── 1978_12.json
+│   │   │   ├── 1978_2.json
+│   │   │   ├── 1978_3.json
+│   │   │   ├── 1978_4.json
+│   │   │   ├── 1978_5.json
+│   │   │   ├── 1978_6.json
+│   │   │   ├── 1978_7.json
+│   │   │   ├── 1978_8.json
+│   │   │   ├── 1978_9.json
+│   │   │   ├── 1979_1.json
+│   │   │   ├── 1979_10.json
+│   │   │   ├── 1979_11.json
+│   │   │   ├── 1979_12.json
+│   │   │   ├── 1979_2.json
+│   │   │   ├── 1979_3.json
+│   │   │   ├── 1979_4.json
+│   │   │   ├── 1979_5.json
+│   │   │   ├── 1979_6.json
+│   │   │   ├── 1979_7.json
+│   │   │   ├── 1979_8.json
+│   │   │   ├── 1979_9.json
+│   │   │   ├── 1980_1.json
+│   │   │   ├── 1980_10.json
+│   │   │   ├── 1980_11.json
+│   │   │   ├── 1980_12.json
+│   │   │   ├── 1980_2.json
+│   │   │   ├── 1980_3.json
+│   │   │   ├── 1980_4.json
+│   │   │   ├── 1980_5.json
+│   │   │   ├── 1980_6.json
+│   │   │   ├── 1980_7.json
+│   │   │   ├── 1980_8.json
+│   │   │   ├── 1980_9.json
+│   │   │   ├── 1981_1.json
+│   │   │   ├── 1981_10.json
+│   │   │   ├── 1981_11.json
+│   │   │   ├── 1981_12.json
+│   │   │   ├── 1981_2.json
+│   │   │   ├── 1981_3.json
+│   │   │   ├── 1981_4.json
+│   │   │   ├── 1981_5.json
+│   │   │   ├── 1981_6.json
+│   │   │   ├── 1981_7.json
+│   │   │   ├── 1981_8.json
+│   │   │   ├── 1981_9.json
+│   │   │   ├── 1982_1.json
+│   │   │   ├── 1982_10.json
+│   │   │   ├── 1982_11.json
+│   │   │   ├── 1982_12.json
+│   │   │   ├── 1982_2.json
+│   │   │   ├── 1982_3.json
+│   │   │   ├── 1982_4.json
+│   │   │   ├── 1982_5.json
+│   │   │   ├── 1982_6.json
+│   │   │   ├── 1982_7.json
+│   │   │   ├── 1982_8.json
+│   │   │   ├── 1982_9.json
+│   │   │   ├── 1983_1.json
+│   │   │   ├── 1983_10.json
+│   │   │   ├── 1983_11.json
+│   │   │   ├── 1983_12.json
+│   │   │   ├── 1983_2.json
+│   │   │   ├── 1983_3.json
+│   │   │   ├── 1983_4.json
+│   │   │   ├── 1983_5.json
+│   │   │   ├── 1983_6.json
+│   │   │   ├── 1983_7.json
+│   │   │   ├── 1983_8.json
+│   │   │   ├── 1983_9.json
+│   │   │   ├── 1984_1.json
+│   │   │   ├── 1984_10.json
+│   │   │   ├── 1984_11.json
+│   │   │   ├── 1984_12.json
+│   │   │   ├── 1984_2.json
+│   │   │   ├── 1984_3.json
+│   │   │   ├── 1984_4.json
+│   │   │   ├── 1984_5.json
+│   │   │   ├── 1984_6.json
+│   │   │   ├── 1984_7.json
+│   │   │   ├── 1984_8.json
+│   │   │   ├── 1984_9.json
+│   │   │   ├── 1985_1.json
+│   │   │   ├── 1985_10.json
+│   │   │   ├── 1985_11.json
+│   │   │   ├── 1985_12.json
+│   │   │   ├── 1985_2.json
+│   │   │   ├── 1985_3.json
+│   │   │   ├── 1985_4.json
+│   │   │   ├── 1985_5.json
+│   │   │   ├── 1985_6.json
+│   │   │   ├── 1985_7.json
+│   │   │   ├── 1985_8.json
+│   │   │   ├── 1985_9.json
+│   │   │   ├── 1986_1.json
+│   │   │   ├── 1986_10.json
+│   │   │   ├── 1986_11.json
+│   │   │   ├── 1986_12.json
+│   │   │   ├── 1986_2.json
+│   │   │   ├── 1986_3.json
+│   │   │   ├── 1986_4.json
+│   │   │   ├── 1986_5.json
+│   │   │   ├── 1986_6.json
+│   │   │   ├── 1986_7.json
+│   │   │   ├── 1986_8.json
+│   │   │   ├── 1986_9.json
+│   │   │   ├── 1987_1.json
+│   │   │   ├── 1987_10.json
+│   │   │   ├── 1987_11.json
+│   │   │   ├── 1987_12.json
+│   │   │   ├── 1987_2.json
+│   │   │   ├── 1987_3.json
+│   │   │   ├── 1987_4.json
+│   │   │   ├── 1987_5.json
+│   │   │   ├── 1987_6.json
+│   │   │   ├── 1987_7.json
+│   │   │   ├── 1987_8.json
+│   │   │   ├── 1987_9.json
+│   │   │   ├── 1988_1.json
+│   │   │   ├── 1988_10.json
+│   │   │   ├── 1988_11.json
+│   │   │   ├── 1988_12.json
+│   │   │   ├── 1988_2.json
+│   │   │   ├── 1988_3.json
+│   │   │   ├── 1988_4.json
+│   │   │   ├── 1988_5.json
+│   │   │   ├── 1988_6.json
+│   │   │   ├── 1988_7.json
+│   │   │   ├── 1988_8.json
+│   │   │   ├── 1988_9.json
+│   │   │   ├── 1989_1.json
+│   │   │   ├── 1989_10.json
+│   │   │   ├── 1989_11.json
+│   │   │   ├── 1989_12.json
+│   │   │   ├── 1989_2.json
+│   │   │   ├── 1989_3.json
+│   │   │   ├── 1989_4.json
+│   │   │   ├── 1989_5.json
+│   │   │   ├── 1989_6.json
+│   │   │   ├── 1989_7.json
+│   │   │   ├── 1989_8.json
+│   │   │   ├── 1989_9.json
+│   │   │   ├── 1990_1.json
+│   │   │   ├── 1990_10.json
+│   │   │   ├── 1990_11.json
+│   │   │   ├── 1990_12.json
+│   │   │   ├── 1990_2.json
+│   │   │   ├── 1990_3.json
+│   │   │   ├── 1990_4.json
+│   │   │   ├── 1990_5.json
+│   │   │   ├── 1990_6.json
+│   │   │   ├── 1990_7.json
+│   │   │   ├── 1990_8.json
+│   │   │   ├── 1990_9.json
+│   │   │   ├── 1991_1.json
+│   │   │   ├── 1991_10.json
+│   │   │   ├── 1991_11.json
+│   │   │   ├── 1991_12.json
+│   │   │   ├── 1991_2.json
+│   │   │   ├── 1991_3.json
+│   │   │   ├── 1991_4.json
+│   │   │   ├── 1991_5.json
+│   │   │   ├── 1991_6.json
+│   │   │   ├── 1991_7.json
+│   │   │   ├── 1991_8.json
+│   │   │   ├── 1991_9.json
+│   │   │   ├── 1992_1.json
+│   │   │   ├── 1992_10.json
+│   │   │   ├── 1992_11.json
+│   │   │   ├── 1992_12.json
+│   │   │   ├── 1992_2.json
+│   │   │   ├── 1992_3.json
+│   │   │   ├── 1992_4.json
+│   │   │   ├── 1992_5.json
+│   │   │   ├── 1992_6.json
+│   │   │   ├── 1992_7.json
+│   │   │   ├── 1992_8.json
+│   │   │   ├── 1992_9.json
+│   │   │   ├── 1993_1.json
+│   │   │   ├── 1993_10.json
+│   │   │   ├── 1993_11.json
+│   │   │   ├── 1993_12.json
+│   │   │   ├── 1993_2.json
+│   │   │   ├── 1993_3.json
+│   │   │   ├── 1993_4.json
+│   │   │   ├── 1993_5.json
+│   │   │   ├── 1993_6.json
+│   │   │   ├── 1993_7.json
+│   │   │   ├── 1993_8.json
+│   │   │   ├── 1993_9.json
+│   │   │   ├── 1994_1.json
+│   │   │   ├── 1994_10.json
+│   │   │   ├── 1994_11.json
+│   │   │   ├── 1994_12.json
+│   │   │   ├── 1994_2.json
+│   │   │   ├── 1994_3.json
+│   │   │   ├── 1994_4.json
+│   │   │   ├── 1994_5.json
+│   │   │   ├── 1994_6.json
+│   │   │   ├── 1994_7.json
+│   │   │   ├── 1994_8.json
+│   │   │   ├── 1994_9.json
+│   │   │   ├── 1995_1.json
+│   │   │   ├── 1995_10.json
+│   │   │   ├── 1995_11.json
+│   │   │   ├── 1995_12.json
+│   │   │   ├── 1995_2.json
+│   │   │   ├── 1995_3.json
+│   │   │   ├── 1995_4.json
+│   │   │   ├── 1995_5.json
+│   │   │   ├── 1995_6.json
+│   │   │   ├── 1995_7.json
+│   │   │   ├── 1995_8.json
+│   │   │   ├── 1995_9.json
+│   │   │   ├── 1996_1.json
+│   │   │   ├── 1996_10.json
+│   │   │   ├── 1996_11.json
+│   │   │   ├── 1996_12.json
+│   │   │   ├── 1996_2.json
+│   │   │   ├── 1996_3.json
+│   │   │   ├── 1996_4.json
+│   │   │   ├── 1996_5.json
+│   │   │   ├── 1996_6.json
+│   │   │   ├── 1996_7.json
+│   │   │   ├── 1996_8.json
+│   │   │   ├── 1996_9.json
+│   │   │   ├── 1997_1.json
+│   │   │   ├── 1997_10.json
+│   │   │   ├── 1997_11.json
+│   │   │   ├── 1997_12.json
+│   │   │   ├── 1997_2.json
+│   │   │   ├── 1997_3.json
+│   │   │   ├── 1997_4.json
+│   │   │   ├── 1997_5.json
+│   │   │   ├── 1997_6.json
+│   │   │   ├── 1997_7.json
+│   │   │   ├── 1997_8.json
+│   │   │   ├── 1997_9.json
+│   │   │   ├── 1998_1.json
+│   │   │   ├── 1998_10.json
+│   │   │   ├── 1998_11.json
+│   │   │   ├── 1998_12.json
+│   │   │   ├── 1998_2.json
+│   │   │   ├── 1998_3.json
+│   │   │   ├── 1998_4.json
+│   │   │   ├── 1998_5.json
+│   │   │   ├── 1998_6.json
+│   │   │   ├── 1998_7.json
+│   │   │   ├── 1998_8.json
+│   │   │   ├── 1998_9.json
+│   │   │   ├── 1999_1.json
+│   │   │   ├── 1999_10.json
+│   │   │   ├── 1999_11.json
+│   │   │   ├── 1999_12.json
+│   │   │   ├── 1999_2.json
+│   │   │   ├── 1999_3.json
+│   │   │   ├── 1999_4.json
+│   │   │   ├── 1999_5.json
+│   │   │   ├── 1999_6.json
+│   │   │   ├── 1999_7.json
+│   │   │   ├── 1999_8.json
+│   │   │   ├── 1999_9.json
+│   │   │   ├── 2000_1.json
+│   │   │   ├── 2000_10.json
+│   │   │   ├── 2000_11.json
+│   │   │   ├── 2000_12.json
+│   │   │   ├── 2000_2.json
+│   │   │   ├── 2000_3.json
+│   │   │   ├── 2000_4.json
+│   │   │   ├── 2000_5.json
+│   │   │   ├── 2000_6.json
+│   │   │   ├── 2000_7.json
+│   │   │   ├── 2000_8.json
+│   │   │   ├── 2000_9.json
+│   │   │   ├── 2001_1.json
+│   │   │   ├── 2001_10.json
+│   │   │   ├── 2001_11.json
+│   │   │   ├── 2001_12.json
+│   │   │   ├── 2001_2.json
+│   │   │   ├── 2001_3.json
+│   │   │   ├── 2001_4.json
+│   │   │   ├── 2001_5.json
+│   │   │   ├── 2001_6.json
+│   │   │   ├── 2001_7.json
+│   │   │   ├── 2001_8.json
+│   │   │   ├── 2001_9.json
+│   │   │   ├── 2002_1.json
+│   │   │   ├── 2002_10.json
+│   │   │   ├── 2002_11.json
+│   │   │   ├── 2002_12.json
+│   │   │   ├── 2002_2.json
+│   │   │   ├── 2002_3.json
+│   │   │   ├── 2002_4.json
+│   │   │   ├── 2002_5.json
+│   │   │   ├── 2002_6.json
+│   │   │   ├── 2002_7.json
+│   │   │   ├── 2002_8.json
+│   │   │   ├── 2002_9.json
+│   │   │   ├── 2003_1.json
+│   │   │   ├── 2003_10.json
+│   │   │   ├── 2003_11.json
+│   │   │   ├── 2003_12.json
+│   │   │   ├── 2003_2.json
+│   │   │   ├── 2003_3.json
+│   │   │   ├── 2003_4.json
+│   │   │   ├── 2003_5.json
+│   │   │   ├── 2003_6.json
+│   │   │   ├── 2003_7.json
+│   │   │   ├── 2003_8.json
+│   │   │   ├── 2003_9.json
+│   │   │   ├── 2004_1.json
+│   │   │   ├── 2004_10.json
+│   │   │   ├── 2004_11.json
+│   │   │   ├── 2004_12.json
+│   │   │   ├── 2004_2.json
+│   │   │   ├── 2004_3.json
+│   │   │   ├── 2004_4.json
+│   │   │   ├── 2004_5.json
+│   │   │   ├── 2004_6.json
+│   │   │   ├── 2004_7.json
+│   │   │   ├── 2004_8.json
+│   │   │   ├── 2004_9.json
+│   │   │   ├── 2005_1.json
+│   │   │   ├── 2005_10.json
+│   │   │   ├── 2005_11.json
+│   │   │   ├── 2005_12.json
+│   │   │   ├── 2005_2.json
+│   │   │   ├── 2005_3.json
+│   │   │   ├── 2005_4.json
+│   │   │   ├── 2005_5.json
+│   │   │   ├── 2005_7.json
+│   │   │   ├── 2005_8.json
+│   │   │   ├── 2005_9.json
+│   │   │   ├── 2006_1.json
+│   │   │   ├── 2006_10.json
+│   │   │   ├── 2006_11.json
+│   │   │   ├── 2006_12.json
+│   │   │   ├── 2006_2.json
+│   │   │   ├── 2006_3.json
+│   │   │   ├── 2006_4.json
+│   │   │   ├── 2006_5.json
+│   │   │   ├── 2006_6.json
+│   │   │   ├── 2006_7.json
+│   │   │   ├── 2006_8.json
+│   │   │   ├── 2006_9.json
+│   │   │   ├── 2007_1.json
+│   │   │   ├── 2007_10.json
+│   │   │   ├── 2007_11.json
+│   │   │   ├── 2007_12.json
+│   │   │   ├── 2007_2.json
+│   │   │   ├── 2007_3.json
+│   │   │   ├── 2007_4.json
+│   │   │   ├── 2007_5.json
+│   │   │   ├── 2007_6.json
+│   │   │   ├── 2007_7.json
+│   │   │   ├── 2007_8.json
+│   │   │   ├── 2007_9.json
+│   │   │   ├── 2008_1.json
+│   │   │   ├── 2008_10.json
+│   │   │   ├── 2008_11.json
+│   │   │   ├── 2008_12.json
+│   │   │   ├── 2008_2.json
+│   │   │   ├── 2008_3.json
+│   │   │   ├── 2008_4.json
+│   │   │   ├── 2008_5.json
+│   │   │   ├── 2008_6.json
+│   │   │   ├── 2008_7.json
+│   │   │   ├── 2008_8.json
+│   │   │   ├── 2008_9.json
+│   │   │   ├── 2009_1.json
+│   │   │   ├── 2009_10.json
+│   │   │   ├── 2009_11.json
+│   │   │   ├── 2009_12.json
+│   │   │   ├── 2009_2.json
+│   │   │   ├── 2009_3.json
+│   │   │   ├── 2009_4.json
+│   │   │   ├── 2009_5.json
+│   │   │   ├── 2009_6.json
+│   │   │   ├── 2009_7.json
+│   │   │   ├── 2009_8.json
+│   │   │   ├── 2009_9.json
+│   │   │   ├── 2010_1.json
+│   │   │   ├── 2010_10.json
+│   │   │   ├── 2010_11.json
+│   │   │   ├── 2010_12.json
+│   │   │   ├── 2010_2.json
+│   │   │   ├── 2010_3.json
+│   │   │   ├── 2010_5.json
+│   │   │   ├── 2010_6.json
+│   │   │   ├── 2010_7.json
+│   │   │   ├── 2010_8.json
+│   │   │   ├── 2010_9.json
+│   │   │   ├── 2011_1.json
+│   │   │   ├── 2011_10.json
+│   │   │   ├── 2011_11.json
+│   │   │   ├── 2011_12.json
+│   │   │   ├── 2011_2.json
+│   │   │   ├── 2011_3.json
+│   │   │   ├── 2011_4.json
+│   │   │   ├── 2011_5.json
+│   │   │   ├── 2011_6.json
+│   │   │   ├── 2011_7.json
+│   │   │   ├── 2011_8.json
+│   │   │   ├── 2011_9.json
+│   │   │   ├── 2012_1.json
+│   │   │   ├── 2012_10.json
+│   │   │   ├── 2012_11.json
+│   │   │   ├── 2012_12.json
+│   │   │   ├── 2012_2.json
+│   │   │   ├── 2012_3.json
+│   │   │   ├── 2012_4.json
+│   │   │   ├── 2012_5.json
+│   │   │   ├── 2012_6.json
+│   │   │   ├── 2012_7.json
+│   │   │   ├── 2012_8.json
+│   │   │   ├── 2012_9.json
+│   │   │   ├── 2013_1.json
+│   │   │   ├── 2013_10.json
+│   │   │   ├── 2013_11.json
+│   │   │   ├── 2013_12.json
+│   │   │   ├── 2013_2.json
+│   │   │   ├── 2013_3.json
+│   │   │   ├── 2013_4.json
+│   │   │   ├── 2013_5.json
+│   │   │   ├── 2013_6.json
+│   │   │   ├── 2013_7.json
+│   │   │   ├── 2013_8.json
+│   │   │   ├── 2013_9.json
+│   │   │   ├── 2014_1.json
+│   │   │   ├── 2014_10.json
+│   │   │   ├── 2014_11.json
+│   │   │   ├── 2014_12.json
+│   │   │   ├── 2014_2.json
+│   │   │   ├── 2014_3.json
+│   │   │   ├── 2014_4.json
+│   │   │   ├── 2014_5.json
+│   │   │   ├── 2014_6.json
+│   │   │   ├── 2014_7.json
+│   │   │   ├── 2014_8.json
+│   │   │   ├── 2014_9.json
+│   │   │   ├── 2015_1.json
+│   │   │   ├── 2015_10.json
+│   │   │   ├── 2015_12.json
+│   │   │   ├── 2015_2.json
+│   │   │   ├── 2015_3.json
+│   │   │   ├── 2015_4.json
+│   │   │   ├── 2015_5.json
+│   │   │   ├── 2015_6.json
+│   │   │   ├── 2015_7.json
+│   │   │   ├── 2015_8.json
+│   │   │   ├── 2015_9.json
+│   │   │   ├── 2016_1.json
+│   │   │   ├── 2016_10.json
+│   │   │   ├── 2016_11.json
+│   │   │   ├── 2016_12.json
+│   │   │   ├── 2016_2.json
+│   │   │   ├── 2016_3.json
+│   │   │   ├── 2016_4.json
+│   │   │   ├── 2016_5.json
+│   │   │   ├── 2016_6.json
+│   │   │   ├── 2016_7.json
+│   │   │   ├── 2016_8.json
+│   │   │   ├── 2016_9.json
+│   │   │   ├── 2017_1.json
+│   │   │   ├── 2017_10.json
+│   │   │   ├── 2017_11.json
+│   │   │   ├── 2017_12.json
+│   │   │   ├── 2017_2.json
+│   │   │   ├── 2017_3.json
+│   │   │   ├── 2017_4.json
+│   │   │   ├── 2017_5.json
+│   │   │   ├── 2017_6.json
+│   │   │   ├── 2017_7.json
+│   │   │   ├── 2017_8.json
+│   │   │   ├── 2017_9.json
+│   │   │   ├── 2018_1.json
+│   │   │   ├── 2018_10.json
+│   │   │   ├── 2018_11.json
+│   │   │   ├── 2018_12.json
+│   │   │   ├── 2018_2.json
+│   │   │   ├── 2018_3.json
+│   │   │   ├── 2018_4.json
+│   │   │   ├── 2018_5.json
+│   │   │   ├── 2018_8.json
+│   │   │   ├── 2018_9.json
+│   │   │   ├── 2019_1.json
+│   │   │   ├── 2019_10.json
+│   │   │   ├── 2019_11.json
+│   │   │   ├── 2019_12.json
+│   │   │   ├── 2019_2.json
+│   │   │   ├── 2019_3.json
+│   │   │   ├── 2019_4.json
+│   │   │   ├── 2019_5.json
+│   │   │   ├── 2019_6.json
+│   │   │   ├── 2019_8.json
+│   │   │   ├── 2019_9.json
+│   │   │   ├── 2020_1.json
+│   │   │   ├── 2020_2.json
+│   │   │   ├── 2020_3.json
+│   │   │   ├── 2020_4.json
+│   │   │   ├── 2020_5.json
+│   │   │   ├── 2020_6.json
+│   │   │   └── 2020_7.json
+│   │   ├── geojson
+│   │   │   └── geojson_example.geojson
+│   │   ├── meteorites
+│   │   │   ├── convert_2_geojson.py
+│   │   │   ├── meteorites.geojson
+│   │   │   ├── meteorites_export.json
+│   │   │   ├── xaa
+│   │   │   ├── xab
+│   │   │   ├── xac
+│   │   │   ├── xad
+│   │   │   ├── xae
+│   │   │   ├── xaf
+│   │   │   ├── xag
+│   │   │   ├── xah
+│   │   │   ├── xai
+│   │   │   ├── xaj
+│   │   │   ├── xak
+│   │   │   └── xal
+│   │   ├── quotes
+│   │   │   ├── fix.py
+│   │   │   ├── quotes.1.json
+│   │   │   ├── quotes.2.json
+│   │   │   └── quotes_all.json
+│   │   ├── WordLists
+│   │   │   └── README.md
+│   │   ├── world_people
+│   │   │   ├── read_csv.cpp
+│   │   │   ├── world_people.csv
+│   │   │   └── world_people.json
+│   │   ├── armageddon_Mar_26.zip
+│   │   ├── candy_full.json
+│   │   ├── clan_names.txt
+│   │   ├── CleanGeorgia.json
+│   │   ├── counties.geojson
+│   │   ├── countries_export.json
+│   │   ├── country_capitals.geojson
+│   │   ├── dictionary_20mb.json
+│   │   ├── food.json
+│   │   ├── gz_2010_us_040_00_20m.json
+│   │   ├── gz_2010_us_040_00_500k.json
+│   │   ├── gz_2010_us_040_00_5m.json
+│   │   ├── gz_2010_us_outline_20m.json
+│   │   ├── gz_2010_us_outline_500k.json
+│   │   ├── gz_2010_us_outline_5m.json
+│   │   ├── latex_colors.json
+│   │   ├── Military_Bases.geojson
+│   │   ├── penguins.csv
+│   │   ├── pokemon.csv
+│   │   ├── random_people.10000.json
+│   │   ├── read_world_cities.py
+│   │   ├── README.md
+│   │   ├── state_abbr.json
+│   │   ├── students.csv
+│   │   ├── survey.csv
+│   │   ├── titanic.csv
+│   │   ├── tl_2019_us_rails.zip
+│   │   ├── ufo.csv
+│   │   ├── ufo_01.geojson
+│   │   ├── ufo_02.geojson
+│   │   ├── ufo_processing.py
+│   │   └── usa-state-capitals.geojson
+│   └── README.md
+├── 02-Missile_Geometry_202
+│   ├── _micro_lessons
+│   │   ├── 00-Paths
+│   │   │   ├── data
+│   │   │   ├── output
+│   │   │   ├── 00-Working_Directory.ipynb
+│   │   │   ├── 01-Relative_vs_Absolute.ipynb
+│   │   │   ├── 02-Data_Elsewhere.ipynb
+│   │   │   ├── 03-Find_Project_Root.ipynb
+│   │   │   └── README.md
+│   │   ├── 01-JSON_GeoJSON
+│   │   │   ├── data
+│   │   │   │   ├── heavy_meteorites.geojson
+│   │   │   │   ├── latex_colors.json
+│   │   │   │   ├── meteorites.geojson
+│   │   │   │   └── my_collection.geojson
+│   │   │   ├── 00-Reading_JSON.ipynb
+│   │   │   ├── 01-GeoJSON_Structure.ipynb
+│   │   │   ├── 02-Feature_Collections.ipynb
+│   │   │   └── README.md
+│   │   ├── 02-Viewing_GeoJSON
+│   │   │   ├── data
+│   │   │   │   └── wichita_falls.geojson
+│   │   │   ├── 00-Geojson.io.ipynb
+│   │   │   ├── 01-iPyLeaflet_Intro.ipynb
+│   │   │   ├── 02-Add_GeoJSON.ipynb
+│   │   │   ├── 03-Map_Control.ipynb
+│   │   │   └── README.md
+│   │   ├── 03-Attributes_Styling_Filtering
+│   │   │   ├── 00-Properties.ipynb
+│   │   │   ├── 01-Style_Functions.ipynb
+│   │   │   ├── 02-Filtering.ipynb
+│   │   │   └── README.md
+│   │   ├── 04-Interactive_Maps
+│   │   │   ├── 00-Map_Events.ipynb
+│   │   │   ├── 01-Click_Interactions.ipynb
+│   │   │   ├── 02-Dynamic_Layers.ipynb
+│   │   │   ├── 03-User_Feedback.ipynb
+│   │   │   ├── clicked_points.geojson
+│   │   │   ├── my_points.geojson
+│   │   │   └── README.md
+│   │   ├── 05-Coordinate_Geometry
+│   │   │   ├── 00-Coordinate_Ranges.ipynb
+│   │   │   ├── 01-Compute_BBox.ipynb
+│   │   │   ├── 02-Draw_BBox.ipynb
+│   │   │   ├── 03-Why_LatLon_Is_Weird.ipynb
+│   │   │   └── README.md
+│   │   ├── 06-Distance
+│   │   │   ├── 00-Euclidean_Distance.ipynb
+│   │   │   ├── 01-Haversine_Distance.ipynb
+│   │   │   ├── 02-Compare_Methods.ipynb
+│   │   │   ├── 03-Distance_Applications.ipynb
+│   │   │   ├── 04-Performance_Batching.ipynb
+│   │   │   └── README.md
+│   │   ├── 07-Bearing
+│   │   │   ├── data
+│   │   │   │   └── bearing_examples.json
+│   │   │   ├── 00-What_Is_Bearing.ipynb
+│   │   │   ├── 01-Compute_Bearing.ipynb
+│   │   │   ├── 02-Bearing_V_Direction.ipynb
+│   │   │   ├── 03-Bearing_Applications.ipynb
+│   │   │   ├── 04-Advanced_Bearing.ipynb
+│   │   │   └── README.md
+│   │   ├── 08-Intercept_Pursuit_Module_Design
+│   │   │   ├── 00-Problem_Setup.ipynb
+│   │   │   ├── 01-Constant_Velocity_Intercept.ipynb
+│   │   │   ├── 02-Iterative_Pursuit.ipynb
+│   │   │   ├── 03-Visual_Simulation.ipynb
+│   │   │   ├── 04-Strategy_and_Limits.ipynb
+│   │   │   ├── 05-Advanced_Topics.ipynb
+│   │   │   └── README.md
+│   │   ├── 09-Intersections
+│   │   │   ├── data
+│   │   │   │   ├── countries.geojson
+│   │   │   │   ├── med_arc.geojson
+│   │   │   │   └── paths.geojson
+│   │   │   ├── 00-Lines_as_Paths.ipynb
+│   │   │   ├── 01-Line_Segment_Intersection.ipynb
+│   │   │   ├── 02-Line_vs_Polygon_Basics.ipynb
+│   │   │   ├── 03-Detecting_Intersections.ipynb
+│   │   │   ├── 04-Highlighting_Intersected_Features.ipynb
+│   │   │   ├── 05-Applications_Missile_Paths.ipynb
+│   │   │   └── README.md
+│   │   ├── 10-Buffers
+│   │   │   ├── data
+│   │   │   │   └── targets.geojson
+│   │   │   ├── 00_Buffer_Concepts.ipynb
+│   │   │   ├── 01_Buffering_Points.ipynb
+│   │   │   ├── 02-Buffering_Lines.ipynb
+│   │   │   ├── 03-Comparing_Buffer_Sizes.ipynb
+│   │   │   ├── 04-Buffer_Visualization_Strategies.ipynb
+│   │   │   ├── 05-CRS_Limitations.ipynb
+│   │   │   ├── 06-Applications_Impact_Zones.ipynb
+│   │   │   └── README.md
+│   │   ├── 11-Point_In_Polygon
+│   │   │   ├── data
+│   │   │   │   └── regions.geojson
+│   │   │   ├── 00_Click_Capture.ipynb
+│   │   │   ├── 01_Point_Representation.ipynb
+│   │   │   ├── 02_Point_In_Polygon_Basics.ipynb
+│   │   │   ├── 03_Ray_Casting_Algorithm.ipynb
+│   │   │   ├── 04_Testing_Against_Multiple_Features.ipynb
+│   │   │   ├── 05_Region_Classification.ipynb
+│   │   │   ├── 06_Interactive_Click_Applications.ipynb
+│   │   │   └── README.md
+│   │   ├── 12-Refactoring
+│   │   │   ├── 01-From-Notebook-to-Module.ipynb
+│   │   │   ├── geo.py
+│   │   │   └── README.md
+│   │   ├── 13-WDO_Library
+│   │   │   ├── 01-Installing-and-Using-WDO.ipynb
+│   │   │   └── README.md
+│   │   └── README.md
+│   ├── src
+│   │   ├── wdo
+│   │   │   ├── __init__.py
+│   │   │   ├── geo.py
+│   │   │   ├── io_shapefile.py
+│   │   │   ├── maps.py
+│   │   │   ├── simulate_threats.py
+│   │   │   ├── viz_map.py
+│   │   │   └── viz_map_ipyleaflet.py
+│   │   ├── wdo.egg-info
+│   │   │   ├── dependency_links.txt
+│   │   │   ├── PKG-INFO
+│   │   │   ├── SOURCES.txt
+│   │   │   └── top_level.txt
+│   │   └── workload_generator_v2.cpp
+│   ├── helloworld
+│   ├── pyproject.toml
+│   └── README.md
+├── 03-Data_Manager
+│   ├── _micro_lessons
+│   │   ├── 00-Data_Exploration
+│   │   │   ├── 00-Loading_and_Inspecting.ipynb
+│   │   │   ├── 01-Measuring_the_Problem.ipynb
+│   │   │   └── README.md
+│   │   ├── 01-Douglas_Peucker
+│   │   │   ├── 00-The_Algorithm.ipynb
+│   │   │   ├── 01-Implementation.ipynb
+│   │   │   ├── 02-Epsilon_and_Tradeoffs.ipynb
+│   │   │   └── README.md
+│   │   ├── 02-LOD_Generation
+│   │   │   ├── 00-Designing_the_Pipeline.ipynb
+│   │   │   ├── 01-Writing_the_LOD_Files.ipynb
+│   │   │   ├── 02-Comparing_the_Levels.ipynb
+│   │   │   └── README.md
+│   │   ├── 03-Bounding_Box_Culling
+│   │   │   ├── 00-Bounding_Boxes.ipynb
+│   │   │   ├── 01-Intersection_Test.ipynb
+│   │   │   ├── 02-Viewport_Culling.ipynb
+│   │   │   └── README.md
+│   │   ├── 04-Spatial_Grid_Index
+│   │   │   ├── 00-The_Grid_Idea.ipynb
+│   │   │   ├── 01-Building_the_Index.ipynb
+│   │   │   ├── 02-Querying_and_Benchmarking.ipynb
+│   │   │   └── README.md
+│   │   ├── 05-Zoom_Layer_Switching
+│   │   │   ├── 00-The_Decision_Function.ipynb
+│   │   │   ├── 01-Live_Layer_Switching.ipynb
+│   │   │   └── README.md
+│   │   ├── 06-Putting_It_Together
+│   │   │   ├── 00-The_Viewer.ipynb
+│   │   │   ├── 01-What_We_Built.ipynb
+│   │   │   └── README.md
+│   │   ├── 07-The_Library_Version
+│   │   │   ├── 00-What_Are_Vector_Tiles.ipynb
+│   │   │   ├── 01-Using_Tippecanoe.ipynb
+│   │   │   ├── 02-The_Comparison.ipynb
+│   │   │   └── README.md
+│   │   └── README.md
+│   ├── data
+│   │   ├── lod
+│   │   │   ├── railroads_coarse.geojson
+│   │   │   ├── railroads_extra_fine.geojson
+│   │   │   ├── railroads_fine.geojson
+│   │   │   └── railroads_medium.geojson
+│   │   └── ne_10m_railroads.geojson
+│   └── README.md
+└── README.md
+
+============================================================
+  SUMMARY
+============================================================
+
+  01-Python_Foundations
+    38/38  [██████████████████████████████████████]
+    Goal: complete 40–50% of notebooks
+
+  02-Missile_Geometry_101
+    0/11  [░░░░░░░░░░░]
+    Goal: complete all 11 + include your working project
+
+  02-Missile_Geometry_202
+    60/60  [████████████████████████████████████████████████████████████]
+    Goal: complete all 60 notebooks
+
+  03-Data_Manager
+    21/21  [█████████████████████]
+    Goal: complete all 21 notebooks
+
+  Total: 119/130 notebooks found
+
+
+============================================================
+  SELF-REPORTED PROGRESS SCORE
+  Edit this file and replace the line below with your score.
+  Use a number from 0 to 10, where 10 = 100% complete.
+============================================================
+
+  Score: __ / 10
+
